@@ -50,7 +50,7 @@
       margin-top: 20px;
     }
 
-    .skills h2, .work-experience h2, .education h2 {
+    .skills h2, .education h2 {
       border-bottom: 2px solid #5e3b26;
       display: inline-block;
       padding-bottom: 5px;
@@ -58,21 +58,13 @@
       color: #333;
     }
 
-    .skills ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .skills ul li {
-      width: 53%;
-    }
-
     .skills ul li h3 {
       color: #5e3b26;
     }
-
+    
+    button {
+      color: rgb(235, 236, 220);
+    }
 
     
   </style>
@@ -90,31 +82,31 @@
       </div><br>
     </div>
 
-    <div class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>
-          <h3>Hard Skills</h3>
-          <ul>
-            <li>Hyper Text Markup Langage</li>
-            <li>Cascading Style Sheets</li>
-            <li>JavaScript</li>
-            <li>NodeJS</li>
-            <li>ReactJS</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Time Management</li>
-            <li>Creativity</li>
-            <li>Problem Solving</li>
-            <li>Critical Thinking</li>
-            <li>Teamwork</li>
-          </ul>
-        </li>
+    <div class="skills" style="font-family: Arial, sans-serif; padding: 20px; ">
+      <h2 style="font-size: 1.5em; margin-bottom: 15px;">Skills</h2>
+      <ul style="display: flex; justify-content: space-evenly; padding: 0; margin: 0; list-style-type: none;">
+          <li style="width: 45%; padding: 10px;  border-radius: 5px;">
+              <h3 style="font-size: 1.2em; margin-bottom: 10px;">Hard Skills</h3>
+              <ul style="padding-left: 20px; list-style-type:disclosure-closed;">
+                  <li>Hyper Text Markup Language</li>
+                  <li>Cascading Style Sheets</li>
+                  <li>JavaScript</li>
+                  <li>NodeJS</li>
+                  <li>ReactJS</li>
+              </ul>
+          </li>
+          <li style="width: 45%; padding: 10px;  border-radius: 5px;">
+              <h3 style="font-size: 1.2em; margin-bottom: 10px;">Soft Skills</h3>
+              <ul style="padding-left: 20px; list-style-type:disclosure-closed;">
+                  <li>Time Management</li>
+                  <li>Creativity</li>
+                  <li>Problem Solving</li>
+                  <li>Critical Thinking</li>
+                  <li>Teamwork</li>
+              </ul>
+          </li>
       </ul>
-    </div>
+  </div>
 
     <div class="education">
       <h2>Education</h2>
@@ -125,6 +117,6 @@
         </ul>
   </div>
   <br>
-    <a href="./aboutMe.html" target="_blank">Click here to know more about me!</a>
+    <a href="./about.html" target="_blank"><button style="border:2px solid rgb(20, 1, 1); border-radius:6px; background:#5e3b26; padding:6px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"><b>Click here to know more about me!</b></button></a>
 </body>
 </html>
